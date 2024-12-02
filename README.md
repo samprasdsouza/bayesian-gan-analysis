@@ -128,30 +128,3 @@ Also, `uncertainty_estimation.py` can be used to compare uncertainties by a Baye
 **Notes**:  
 1. You need to download the [notMNIST](http://yaroslavvb.blogspot.com/2011/09/notmnist-dataset.html) dataset from [here](http://yaroslavvb.com/upload/notMNIST/notMNIST_small.tar.gz).  
 2. Parameters `layer_type` and `activation_type` used in `uncertainty_etimation.py` needs to be set from `config_bayesian.py` in order to match with provided weights. 
-
----------------------------------------------------------------------------------------------------------
-
-
-
-If you are using this work, please cite:
-
-```
-@article{shridhar2019comprehensive,
-  title={A comprehensive guide to bayesian convolutional neural network with variational inference},
-  author={Shridhar, Kumar and Laumann, Felix and Liwicki, Marcus},
-  journal={arXiv preprint arXiv:1901.02731},
-  year={2019}
-}
-```
-
-```
-@article{shridhar2018uncertainty,
-  title={Uncertainty estimations by softplus normalization in bayesian convolutional neural networks with variational inference},
-  author={Shridhar, Kumar and Laumann, Felix and Liwicki, Marcus},
-  journal={arXiv preprint arXiv:1806.05978},
-  year={2018}
-}
-}
-```
-
---------------------------------------------------------------------------------------------------------
