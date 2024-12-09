@@ -1,3 +1,49 @@
+# Bayesian Neural Network for GAN Fingerprint Detection
+
+This project implements a **Bayesian Neural Network (BNN)** model based on the **AlexNet architecture** to identify **GAN-specific fingerprints**. The model utilizes **uncertainty-aware inference** to enhance classification accuracy, specifically distinguishing between **GAN-generated images** and **real images** from **ProGAN**, **StyleGAN**, and **DCGAN**.
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Key Features](#key-features)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Training](#training)
+  - [Evaluation](#evaluation)
+- [Results](#results)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+
+## Overview
+
+GANs (Generative Adversarial Networks) are widely used for generating synthetic images, often indistinguishable from real images. This project aims to detect **GAN-generated images** by identifying unique **fingerprints** or patterns within these images. Using a **Bayesian Neural Network** built on **AlexNet**, we leverage uncertainty-aware inference to improve classification accuracy.
+
+## Key Features
+
+- **Model Architecture**: Bayesian Neural Network using **AlexNet**.
+- **Classification Task**: Classifies images from **ProGAN**, **StyleGAN**, and **DCGAN** as either **real** or **GAN-generated**.
+- **Accuracy**: Achieved **68.7% validation accuracy** in distinguishing between GAN-generated and real images.
+- **Dataset**: Processed and curated a dataset of **75,000 images**, combining **synthetic** and **real-world** data to ensure robust evaluation.
+- **Advanced Techniques**: Employed **noise residual extraction** and **Gaussian filtering** to isolate **GAN-specific patterns** for more accurate detection.
+
+## Installation
+
+To get started with this project, follow these steps:
+
+### Prerequisites
+
+Ensure you have **Python 3.8 and **pip** installed. It is recommended to create a virtual environment for this project.
+
+
+
+
+
+
+
+
+
+# Bayesian Neural Network
+
 
 We introduce **Bayesian convolutional neural networks with variational inference**, a variant of convolutional neural networks (CNNs), in which the intractable posterior probability distributions over weights are inferred by **Bayes by Backprop**. We demonstrate how our proposed variational inference method achieves performances equivalent to frequentist inference in identical architectures on several datasets (MNIST, CIFAR10, CIFAR100) as described in the [paper](https://arxiv.org/abs/1901.02731).
 
